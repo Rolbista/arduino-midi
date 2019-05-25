@@ -44,7 +44,8 @@ void setup() {
   // initialize the LED as an output:
   //pinMode(ledPin, OUTPUT);
   // initialize serial communication:
-  Serial.begin(9600);
+  //Serial.begin(9600);
+  HardwareSerialMIDI_Interface midi(Serial1, MIDI_BAUD);
   //display setup
   display.setBrightness(0x08);
   display.showNumberDec(modWheelMsg, false, 4, 0); //display initial encoder value 
@@ -72,7 +73,7 @@ int encoderConfig() {
       modWheelMsg = newPos;
       display.showNumberDec(newPos, false, 4, 0);
       return newPos;
-    } // if
+    }
 }
 void loop() {
   // read the pushbutton input pin:
