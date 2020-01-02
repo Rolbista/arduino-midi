@@ -1,0 +1,464 @@
+EESchema Schematic File Version 4
+LIBS:midi_controller-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SparkFun-Boards:SPARKFUN_PRO_MICRO B1
+U 1 1 5DBE4BEE
+P 5750 3900
+F 0 "B1" H 5750 4810 45  0000 C CNN
+F 1 "SPARKFUN_PRO_MICRO" H 5750 4726 45  0000 C CNN
+F 2 "Boards:SPARKFUN_PRO_MICRO" H 5750 4700 20  0001 C CNN
+F 3 "" H 5750 3900 50  0001 C CNN
+F 4 "XXX-00000" H 5750 4631 60  0000 C CNN "Field4"
+	1    5750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Connectors:DIN5 J1
+U 1 1 5DBE5B52
+P 2750 1850
+F 0 "J1" H 2750 1290 45  0000 C CNN
+F 1 "DIN5" H 2750 1374 45  0000 C CNN
+F 2 "Sparkfun_Connectors:DIN5-RA-PTH" H 2750 2350 20  0001 C CNN
+F 3 "" H 2750 1850 50  0001 C CNN
+F 4 "CONN-09481" H 2750 1469 60  0000 C CNN "Field4"
+	1    2750 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Connectors:DIN5 J2
+U 1 1 5DBE61B3
+P 5350 1200
+F 0 "J2" H 5350 640 45  0000 C CNN
+F 1 "DIN5" H 5350 724 45  0000 C CNN
+F 2 "Sparkfun_Connectors:DIN5-RA-PTH" H 5350 1700 20  0001 C CNN
+F 3 "" H 5350 1200 50  0001 C CNN
+F 4 "CONN-09481" H 5350 819 60  0000 C CNN "Field4"
+	1    5350 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L dk_Optoisolators-Logic-Output:6N137 U1
+U 1 1 5DBE6CD1
+P 3000 3700
+F 0 "U1" H 3000 4203 60  0000 C CNN
+F 1 "6N137" H 3000 4097 60  0000 C CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 3200 3900 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/6N137%20Series.pdf" H 3200 4000 60  0001 L CNN
+F 4 "160-1791-ND" H 3200 4100 60  0001 L CNN "Digi-Key_PN"
+F 5 "6N137" H 3200 4200 60  0001 L CNN "MPN"
+F 6 "Isolators" H 3200 4300 60  0001 L CNN "Category"
+F 7 "Optoisolators - Logic Output" H 3200 4400 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/6N137%20Series.pdf" H 3200 4500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/lite-on-inc/6N137/160-1791-ND/1969175" H 3200 4600 60  0001 L CNN "DK_Detail_Page"
+F 10 "OPTOISO 5KV 1CH OPEN COLL 8DIP" H 3200 4700 60  0001 L CNN "Description"
+F 11 "Lite-On Inc." H 3200 4800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3200 4900 60  0001 L CNN "Status"
+	1    3000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Resistors:RESISTOR0402 R1
+U 1 1 5DBEFA23
+P 2100 3600
+F 0 "R1" H 2100 3300 45  0000 C CNN
+F 1 "RESISTOR0402" H 2100 3384 45  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_2512_RM10_HandSoldering_RevA_Date25Jun2010" H 2100 3750 20  0001 C CNN
+F 3 "" H 2100 3600 60  0001 C CNN
+F 4 " " H 2100 3479 60  0000 C CNN "Field4"
+	1    2100 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Resistors:RESISTOR0402 R2
+U 1 1 5DBF0841
+P 2100 3800
+F 0 "R2" H 2100 3500 45  0000 C CNN
+F 1 "RESISTOR0402" H 2100 3584 45  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_2512_RM10_HandSoldering_RevA_Date25Jun2010" H 2100 3950 20  0001 C CNN
+F 3 "" H 2100 3800 60  0001 C CNN
+F 4 " " H 2100 3679 60  0000 C CNN "Field4"
+	1    2100 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Resistors:RESISTOR0402 R5
+U 1 1 5DBF0CBC
+P 5000 1750
+F 0 "R5" V 4905 1818 45  0000 L CNN
+F 1 "RESISTOR0402" V 4989 1818 45  0000 L CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_2512_RM10_HandSoldering_RevA_Date25Jun2010" H 5000 1900 20  0001 C CNN
+F 3 "" H 5000 1750 60  0001 C CNN
+F 4 " " V 5084 1818 60  0000 L CNN "Field4"
+	1    5000 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Resistors:RESISTOR0402 R3
+U 1 1 5DBF1137
+P 3300 3250
+F 0 "R3" H 3300 2950 45  0000 C CNN
+F 1 "RESISTOR0402" H 3300 3034 45  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_2512_RM10_HandSoldering_RevA_Date25Jun2010" H 3300 3400 20  0001 C CNN
+F 3 "" H 3300 3250 60  0001 C CNN
+F 4 " " H 3300 3129 60  0000 C CNN "Field4"
+	1    3300 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Resistors:RESISTOR0402 R4
+U 1 1 5DBF17C6
+P 3750 3800
+F 0 "R4" V 3655 3868 45  0000 L CNN
+F 1 "RESISTOR0402" V 3739 3868 45  0000 L CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_2512_RM10_HandSoldering_RevA_Date25Jun2010" H 3750 3950 20  0001 C CNN
+F 3 "" H 3750 3800 60  0001 C CNN
+F 4 " " V 3834 3868 60  0000 L CNN "Field4"
+	1    3750 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 2550 6800 2400
+Wire Wire Line
+	6800 2400 6450 2400
+Wire Wire Line
+	7450 2550 7450 2400
+Wire Wire Line
+	7450 2400 7100 2400
+Wire Wire Line
+	7100 2400 7100 3950
+Wire Wire Line
+	7100 3950 6200 3950
+Wire Wire Line
+	6450 2400 6450 4050
+Wire Wire Line
+	6450 4050 6200 4050
+Wire Wire Line
+	9300 2100 9300 3000
+$Comp
+L power:GND #PWR0101
+U 1 1 5DBFCE2D
+P 9300 3000
+F 0 "#PWR0101" H 9300 2750 50  0001 C CNN
+F 1 "GND" H 9305 2827 50  0000 C CNN
+F 2 "" H 9300 3000 50  0001 C CNN
+F 3 "" H 9300 3000 50  0001 C CNN
+	1    9300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4600 6650 4450
+Wire Wire Line
+	6650 4450 8100 4450
+Wire Wire Line
+	8100 4450 8100 2100
+Connection ~ 8100 2100
+Wire Wire Line
+	8100 2100 8500 2100
+Wire Wire Line
+	6750 3650 6550 3650
+Wire Wire Line
+	3000 4000 3000 4250
+Wire Wire Line
+	3000 4250 3600 4250
+Wire Wire Line
+	3600 4250 3600 2100
+Wire Wire Line
+	3600 2100 3900 2100
+Wire Wire Line
+	2300 3600 2600 3600
+Wire Wire Line
+	2600 3800 2300 3800
+Wire Wire Line
+	2400 2050 1600 2050
+Wire Wire Line
+	1600 2050 1600 3600
+Wire Wire Line
+	1600 3600 1900 3600
+Wire Wire Line
+	3100 2050 3250 2050
+Wire Wire Line
+	3250 2050 3250 3150
+Wire Wire Line
+	3250 3150 1750 3150
+Wire Wire Line
+	1750 3150 1750 3800
+Wire Wire Line
+	1750 3800 1900 3800
+Wire Wire Line
+	5300 3350 5300 1950
+Wire Wire Line
+	5300 1950 5000 1950
+Wire Wire Line
+	5000 1550 5000 1400
+Wire Wire Line
+	5700 1400 5850 1400
+Wire Wire Line
+	5850 1400 5850 2100
+Connection ~ 5850 2100
+Wire Wire Line
+	6200 3450 8500 3450
+Wire Wire Line
+	8500 3450 8500 2100
+Connection ~ 8500 2100
+Wire Wire Line
+	8500 2100 8700 2100
+Wire Wire Line
+	3100 3250 3000 3250
+Wire Wire Line
+	3000 3250 3000 3400
+Wire Wire Line
+	3500 3250 3500 3450
+Wire Wire Line
+	3500 3700 3400 3700
+Wire Wire Line
+	3750 3600 3400 3600
+Wire Wire Line
+	3750 4000 3750 4050
+Wire Wire Line
+	3750 4050 3900 4050
+Wire Wire Line
+	3900 4050 3900 2100
+Connection ~ 3900 2100
+Wire Wire Line
+	3500 3450 5300 3450
+Connection ~ 3500 3450
+Wire Wire Line
+	3500 3450 3500 3700
+$Comp
+L SparkFun-Connectors:CONN_05 J6
+U 1 1 5DC364B3
+P 4500 4150
+F 0 "J6" H 4458 4860 45  0000 C CNN
+F 1 "CONN_05" H 4458 4776 45  0000 C CNN
+F 2 "Sparkfun_Connectors:1X05" H 4500 4750 20  0001 C CNN
+F 3 "" H 4500 4150 50  0001 C CNN
+F 4 "XXX-00000" H 4458 4681 60  0000 C CNN "Field4"
+	1    4500 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3750 5300 3750
+Wire Wire Line
+	4600 3850 5300 3850
+Wire Wire Line
+	4600 3950 5300 3950
+Wire Wire Line
+	4600 4150 4950 4150
+Wire Wire Line
+	4950 4150 4950 2100
+Connection ~ 4950 2100
+Wire Wire Line
+	4950 2100 5850 2100
+Wire Wire Line
+	4600 4050 5100 4050
+Wire Wire Line
+	5100 4050 5100 2850
+Wire Wire Line
+	5100 2850 5850 2850
+Wire Wire Line
+	6550 2850 6550 3650
+Connection ~ 6550 3650
+$Comp
+L SparkFun-Connectors:CONN_04 J4
+U 1 1 5DC6CDC2
+P 6950 4700
+F 0 "J4" V 7003 4622 45  0000 R CNN
+F 1 "CONN_04" V 6919 4622 45  0000 R CNN
+F 2 "Sparkfun_Connectors:1X04" H 6950 5200 20  0001 C CNN
+F 3 "" H 6950 4700 50  0001 C CNN
+F 4 "CONN-09696" V 6824 4622 60  0000 R CNN "Field4"
+	1    6950 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_03 J3
+U 1 1 5DC71122
+P 6900 2650
+F 0 "J3" V 6953 2572 45  0000 R CNN
+F 1 "CONN_03" V 6869 2572 45  0000 R CNN
+F 2 "Sparkfun_Connectors:1X03" H 6900 3050 20  0001 C CNN
+F 3 "" H 6900 2650 50  0001 C CNN
+F 4 "XXX-00000" V 6774 2572 60  0000 R CNN "Field4"
+	1    6900 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_03 J5
+U 1 1 5DC71CAA
+P 7550 2650
+F 0 "J5" V 7603 2572 45  0000 R CNN
+F 1 "CONN_03" V 7519 2572 45  0000 R CNN
+F 2 "Sparkfun_Connectors:1X03" H 7550 3050 20  0001 C CNN
+F 3 "" H 7550 2650 50  0001 C CNN
+F 4 "XXX-00000" V 7424 2572 60  0000 R CNN "Field4"
+	1    7550 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_03 J9
+U 1 1 5DC7B154
+P 4650 4800
+F 0 "J9" V 4703 4722 45  0000 R CNN
+F 1 "CONN_03" V 4619 4722 45  0000 R CNN
+F 2 "Sparkfun_Connectors:1X03" H 4650 5200 20  0001 C CNN
+F 3 "" H 4650 4800 50  0001 C CNN
+F 4 "XXX-00000" V 4524 4722 60  0000 R CNN "Field4"
+	1    4650 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_03 J8
+U 1 1 5DC7B833
+P 4150 4800
+F 0 "J8" V 4203 4722 45  0000 R CNN
+F 1 "CONN_03" V 4119 4722 45  0000 R CNN
+F 2 "Sparkfun_Connectors:1X03" H 4150 5200 20  0001 C CNN
+F 3 "" H 4150 4800 50  0001 C CNN
+F 4 "XXX-00000" V 4024 4722 60  0000 R CNN "Field4"
+	1    4150 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_03 J7
+U 1 1 5DC7BBB2
+P 3650 4800
+F 0 "J7" V 3703 4722 45  0000 R CNN
+F 1 "CONN_03" V 3619 4722 45  0000 R CNN
+F 2 "Sparkfun_Connectors:1X03" H 3650 5200 20  0001 C CNN
+F 3 "" H 3650 4800 50  0001 C CNN
+F 4 "XXX-00000" V 3524 4722 60  0000 R CNN "Field4"
+	1    3650 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 2250 5850 2450
+Connection ~ 5850 2850
+Wire Wire Line
+	5850 2850 6550 2850
+Wire Wire Line
+	4450 4700 4450 4500
+Wire Wire Line
+	3450 4500 3450 4700
+Wire Wire Line
+	3650 4700 3650 4350
+Wire Wire Line
+	3650 4350 4150 4350
+Wire Wire Line
+	4650 4350 4650 4700
+Wire Wire Line
+	3950 4700 3950 4500
+Connection ~ 3950 4500
+Wire Wire Line
+	3950 4500 3450 4500
+Wire Wire Line
+	4150 4700 4150 4350
+Connection ~ 4150 4350
+Wire Wire Line
+	4550 4700 4550 4450
+Wire Wire Line
+	4550 4450 5300 4450
+Wire Wire Line
+	4050 4700 4050 4600
+Wire Wire Line
+	4050 4600 5200 4600
+Wire Wire Line
+	3550 4700 3550 4650
+Wire Wire Line
+	3550 4650 5150 4650
+Connection ~ 5850 2450
+Wire Wire Line
+	5850 2450 5850 2850
+Wire Wire Line
+	3000 3250 3000 2450
+Connection ~ 3000 3250
+Wire Wire Line
+	6950 4250 6950 4600
+Wire Wire Line
+	6200 4250 6950 4250
+Wire Wire Line
+	6200 4150 6850 4150
+Wire Wire Line
+	6850 4150 6850 4600
+Wire Wire Line
+	5850 2100 6700 2100
+Wire Wire Line
+	6700 2550 6700 2100
+Connection ~ 6700 2100
+Wire Wire Line
+	6700 2100 7350 2100
+Connection ~ 7350 2100
+Wire Wire Line
+	7350 2100 7350 2550
+Wire Wire Line
+	5850 2250 6900 2250
+Wire Wire Line
+	7550 2250 7550 2550
+Wire Wire Line
+	6900 2550 6900 2250
+Connection ~ 6900 2250
+Wire Wire Line
+	6900 2250 7550 2250
+Wire Wire Line
+	8700 3850 8700 2100
+Connection ~ 8700 2100
+Wire Wire Line
+	6200 3650 6550 3650
+Wire Wire Line
+	7350 2100 8100 2100
+Wire Wire Line
+	4150 4350 4650 4350
+Wire Wire Line
+	3900 2100 3950 2100
+Wire Wire Line
+	3950 4500 4450 4500
+Wire Wire Line
+	3000 2450 4150 2450
+Wire Wire Line
+	3950 4500 3950 2100
+Connection ~ 3950 2100
+Wire Wire Line
+	3950 2100 4950 2100
+Wire Wire Line
+	4150 4350 4150 2450
+Connection ~ 4150 2450
+Wire Wire Line
+	4150 2450 5850 2450
+Wire Wire Line
+	8700 2100 9000 2100
+Wire Wire Line
+	9000 3750 9000 2100
+Connection ~ 9000 2100
+Wire Wire Line
+	9000 2100 9300 2100
+Wire Wire Line
+	6750 4050 6750 4600
+Wire Wire Line
+	6750 3650 6750 4050
+Connection ~ 6750 4050
+Wire Wire Line
+	8750 4050 6750 4050
+Wire Wire Line
+	8750 4050 8750 4650
+Wire Wire Line
+	5200 4600 5200 4350
+Wire Wire Line
+	5200 4350 5300 4350
+Wire Wire Line
+	5150 4650 5150 4150
+Wire Wire Line
+	5150 4150 5300 4150
+$EndSCHEMATC
